@@ -1,0 +1,26 @@
+[
+    {
+        "name": "E-Commerce Website",
+        "description": "A fully responsive e-commerce platform with product filtering and cart functionality.",
+        "image": "assets/images/project1.jpg",
+        "tags": ["React", "Node.js", "MongoDB", "Redux"],
+        "liveUrl": "https://example.com/ecommerce",
+        "codeUrl": "https://github.com/username/ecommerce"
+    },
+    {
+        "name": "Task Management App",
+        "description": "A productivity application for managing tasks with drag-and-drop functionality.",
+        "image": "assets/images/project2.jpg",
+        "tags": ["Vue", "Firebase", "Vuex"],
+        "liveUrl": "https://example.com/taskapp",
+        "codeUrl": "https://github.com/username/taskapp"
+    },
+    {
+        "name": "Weather Dashboard",
+        "description": "Real-time weather information with 5-day forecast using weather API.",
+        "image": "assets/images/project3.jpg",
+        "tags": ["JavaScript", "API", "CSS3"],
+        "liveUrl": "https://example.com/weather",
+        "codeUrl": "https://github.com/username/weather-app"
+    }
+]

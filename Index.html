@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Developer | Portfolio</title>
+    <meta name="description" content="Professional portfolio showcasing my web development projects">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="profile">
+                <img src="image/lasisi.jpg" alt="Lasisi Oluwayisemilogo Sewanu" class="profile-img">
+                <h1>Lasisi Oluwayisemilogo Sewanu</h1>
+                <p class="tagline">Full Stack Developer | UI/UX Enthusiast</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I'm a caleb university student , 1oo level,this is my first ever website hope you like it.</p>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skills">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>Vue</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skills">
+                            <span>Node.js</span>
+                            <span>Express</span>
+                            <span>Python</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="multimedia" class="section">
+            <div class="container">
+                <h2>My Work</h2>
+                <div class="multimedia-container">
+                    <div class="media-card">
+                        <h3>Audio Introduction</h3>
+                        <audio controls class="media-element">
+                            <source src="c:\Users\DELL\OneDrive\Documents\semilogo.opus" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                    <div class="media-card">
+                        <h3>Project Demo</h3>
+                        <video controls class="media-element">
+                            <source src="assets/video/demo.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div id="projects-container" class="projects-grid"></div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Lasisi Oluwayisemilogo Sewanu Developer. All rights reserved.</p>
+            <button id="theme-toggle" class="theme-toggle">
+                <i class="fas fa-moon"></i> Dark Mode
+            </button>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
